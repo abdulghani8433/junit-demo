@@ -13,7 +13,7 @@ class CalculatorTest {
 	@Test
 	void testAddition() {
 		int addition = calcUnderTest.addition(2, 4);
-		assertEquals(6, addition, "expecting result is 5 but we got " + addition);
+		assertEquals(5, addition, "expecting result is 5 but we got " + addition);
 	}
 
 	@Test
